@@ -1,0 +1,60 @@
+.nav-link {
+  display: flex;
+  align-items: center;
+  white-space: nowrap; /* Adicione esta linha */
+}
+
+/* Ícone do menu */
+.nav-link i {
+  font-size: 24px; /* Ajuste o tamanho conforme necessário */
+  margin-right: 10px;
+}
+/* Cabeçalho do submenu */
+.submenu-header {
+  display: flex; /* Use flexbox para alinhar o ícone e o texto */
+  align-items: center; /* Alinhe verticalmente o ícone e o texto */
+}
+
+/* Ícone do cabeçalho do submenu */
+.submenu-header i {
+  font-size: 24px; /* Ajuste o tamanho conforme necessário */
+  margin-right: 10px; /* Espaço entre o ícone e o texto */
+}
+
+.submenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Submenu items */
+.submenu li {
+  padding: 10px 20px; /* Ajuste esse valor conforme necessário */
+}
+
+
+/* Links do submenu */
+.submenu li a {
+  color: #fff; /* Cor do texto */
+  text-decoration: none; /* Remove o sublinhado dos links */
+  font-size: 16px; /* Tamanho do texto */
+  padding: 10px 20px; /* Espaçamento interno */
+}
+
+/* Links do submenu ao passar o mouse */
+.submenu li a:hover {
+  background-color: rgba(0, 0, 0, 0.2); /* Ajuste a cor de fundo conforme o desejado */
+  transition: all 0.3s ease;
+}
+
+
+li a {
+  display: flex; /* Use flexbox para alinhar o ícone e o texto */
+  align-items: center; /* Alinhe verticalmente o ícone e o texto */
+}
+
+/* Ícone do menu */
+li a i {
+  font-size: 24px; /* Ajuste o tamanho conforme necessário */
+  margin-right: 10px; /* Espaço entre o ícone e o texto */
+}

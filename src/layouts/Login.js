@@ -26,7 +26,7 @@ const Login = (props) => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    axios.post('https://weak-erin-bighorn-sheep-gear.cyclic.app/login', { usuario, senha })
+    axios.post('https://energetic-puce-leg-warmers.cyclic.app/login', { usuario, senha })
     .then(response => {
       console.log('Response from server:', response.data); // Log the response from the server
   

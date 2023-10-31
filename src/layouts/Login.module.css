@@ -83,3 +83,31 @@
   width: 125px; /* Diminui a largura do ícone */
   height: 95px; /* Diminui a altura do ícone */
 }
+
+/* Para telas médias e pequenas */
+@media (max-width: 768px) {
+  .rightSide {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+/* Para telas mobile */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse; /* Muda a direção do flexbox */
+  }
+  .rightSide {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .leftSide {
+    position: absolute;
+    top: 0;
+    
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1;
+  }
+}

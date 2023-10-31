@@ -13,14 +13,22 @@ const Login = (props) => {
   const [usuario, setUsuario] = useState("");
   const [senha, setSenha] = useState("");
   const [backgroundIndex, setBackgroundIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); // Novo estado
 
   useEffect(() => {
     const timer = setInterval(() => {
       setBackgroundIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 5000);
 
+    window.addEventListener("resize", () => {
+      setIsMobile(window.innerWidth <= 768);
+    });
+
     return () => {
       clearInterval(timer);
+      window.removeEventListener("resize", () => {
+        setIsMobile(window.innerWidth <= 768);
+      });
     };
   }, []);
 

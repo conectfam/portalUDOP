@@ -59,7 +59,7 @@ const Login = (props) => {
           
           </form>
           
-          <p className={styles.p}><center>Painel desenvolvido Matheus Miguel - MMS Tecnologia| © 2023</center></p>  
+          <p className={styles.p}><center>Painel desenvolvido por CONNECT FAM Tecnologia | © 2023</center></p>  
           </div>    
       </div>
       

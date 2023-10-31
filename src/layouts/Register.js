@@ -47,7 +47,7 @@ const Register = () => {
       <div className={styles.leftSide}>
         <div className={styles.content}>
           <div className={styles.title}>
-            PAINEL | CONNECT TECH
+            PAINEL | CONNECT
           </div>
           
 

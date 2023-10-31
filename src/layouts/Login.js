@@ -50,7 +50,7 @@ const Login = (props) => {
         <div className={styles.content}>
           <div className={styles.title}>
             <img src={icon} alt="Icon" className={styles.icon} /> {/* Adicionando o ícone */}
-            PAINEL | CONNECT TECH
+            PAINEL | CONNECT
           </div>
           <form onSubmit={handleLogin} className={styles.form}>
             <input type="text" value={usuario} onChange={(e) => setUsuario(e.target.value)} placeholder="Usuário" className={styles.input}/>

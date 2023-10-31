@@ -13,13 +13,11 @@ import AdminLayout from "layouts/Admin.js";
 import Login from "layouts/Login.js";
 import Register from "layouts/Register.js"
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
 const isAuthenticated = () => {
   return localStorage.getItem('token') !== null;
 };
 
-root.render(
+ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/login" render={(props) => <Login {...props} />} />
@@ -27,7 +25,8 @@ root.render(
       <Route path="/admin" render={(props) => isAuthenticated() ? <AdminLayout {...props} /> : <Redirect to="/login" />} />
       <Redirect from="/" to="/login" />
     </Switch>
-  </BrowserRouter>
+  </BrowserRouter>,
+  document.getElementById('root')
 );
 
 

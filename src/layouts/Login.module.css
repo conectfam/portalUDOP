@@ -14,7 +14,7 @@
   bottom: 20px;
   right: 20px;
   width: 300px; /* Ajuste o tamanho conforme necessário */
-  opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+  opacity: 0.4; /* Ajuste a opacidade conforme necessário */
 }
 .leftSide {
   flex: 1; /* Tamanho da coluna da esquerda ajustado para 1 */

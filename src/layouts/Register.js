@@ -47,7 +47,7 @@ const Register = () => {
       <div className={styles.leftSide}>
         <div className={styles.content}>
           <div className={styles.title}>
-            QSLib | QualitySEG
+            PAINEL | CONNECT
           </div>
           
 

@@ -62,8 +62,7 @@ function Header() {
                 href="#pablo"
                 onClick={(e) => e.preventDefault()}
               >
-                <i className="nc-icon nc-zoom-split"></i>
-                <span className="d-lg-block">Pesquisar</span>
+              
               </Nav.Link>
             </Nav.Item>
           </Nav>

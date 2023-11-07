@@ -78,7 +78,7 @@ const Dashboard = () => {
                 title="Graficos"
                 width="1000"
                 height="635"
-                src="https://8xgdy3-my.sharepoint.com/:p:/g/personal/mmiguel5_8xgdy3_onmicrosoft_com/EToBqu1jOxVOvHqbeJji_E8BMU2fVv_OvH_LzKzHlZshvg?e=EZk1bZ"
+                src="https://8xgdy3-my.sharepoint.com/:p:/g/personal/mmiguel5_8xgdy3_onmicrosoft_com/EToBqu1jOxVOvHqbeJji_E8BpHG0RQfWHkeXlpnn2LYr0Q?e=26StJv"
                 frameBorder="0"
                 allowFullScreen
               ></iframe>              

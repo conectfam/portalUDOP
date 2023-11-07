@@ -52,19 +52,19 @@ const dashboardRoutes = [
     subMenu: [
         {
             path: "/NR",
-            name: "NR",
+            name: "PAG. 1",
             component: NRs,
             layout: "/admin",
         },
         {
             path: "/NR2",
-            name: "NR2",
+            name: "PAG. 2",
             component: NR2,
             layout: "/admin",
         },
         {
             path: "/NR3",
-            name: "NR3",
+            name: "PAG. 3",
             component: NR3,
             layout: "/admin",
         },

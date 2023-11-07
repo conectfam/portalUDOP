@@ -5,26 +5,26 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-color: #1A6F45;
+  background-color: #3E4095;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   font-size: 16px;
-  border: 2px solid #1A6F45;
+  border: 2px solid #3E4095;
   box-shadow: 0 0 0 4px rgba(26, 111, 69, 0.3);
   outline: none;
   transition: background-color 0.3s ease;
   cursor: pointer;
 
   &.selected {
-    border-color: #1A6F45;
+    border-color: #3E4095;
     box-shadow: 0 0 0 4px rgba(26, 111, 69, 0.3);
   }
 
   &:hover,
   &:focus {
-    background-color: #082517;
+    background-color: #141531;
   }
 
   img {
@@ -55,12 +55,12 @@
   }
 }
 .floatingButton.selected {
-  border: 2px solid #1A6F45;
+  border: 2px solid #3E4095;
   box-shadow: 0 0 0 4px rgba(26, 111, 69, 0.3);
 }
 .primary {
-  background-color: #1A6F45;
-  border-color: #1A6F45;
+  background-color: #3E4095;
+  border-color: #3E4095;
   color: #fff;
 
   &:hover,
@@ -187,7 +187,7 @@
   }
   .customSelectedButton {
     outline: none;
-    border: 2px solid #1A6F45;
+    border: 2px solid #3E4095;
     box-shadow: 0 0 0 4px rgba(26, 111, 69, 0.3);
   }
   
@@ -215,7 +215,7 @@
   }
   .selectedButton {
     outline: none;
-    border: 2px solid #1A6F45;
+    border: 2px solid #3E4095;
     box-shadow: 0 0 0 4px rgba(26, 111, 69, 0.3);
   }
   
@@ -234,7 +234,7 @@
     margin-bottom: 5px;
 
     &.selected {
-      border-color: #1A6F45;
+      border-color: #3E4095;
       box-shadow: 0 0 0 4px rgba(26, 111, 69, 0.3);
     }
   }

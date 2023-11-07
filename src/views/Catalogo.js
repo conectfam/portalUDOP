@@ -112,7 +112,7 @@ const Catalogo = () => {
 
   return (
     <Container>
-      <Button onClick={handleDownload} className="primary" style={{ backgroundColor: '#1A6F45' }}>
+      <Button onClick={handleDownload} className="primary" style={{ backgroundColor: '#3E4095' }}>
         Baixar Catálogo Atualizado
       </Button>
 
@@ -164,7 +164,7 @@ const Catalogo = () => {
                 className={`${styles.courseButton} ${
                   isSelected ? `${styles.danger} ${styles.selectedButton}` : styles.primary
                 }`}
-                style={{ backgroundColor: '#1A6F45' }}
+                style={{ backgroundColor: '#3E4095' }}
                 onClick={(e) => handleCourseSelection(e, curso)}
               >
                 {isSelected ? 'Remover curso' : (

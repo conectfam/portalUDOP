@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+.p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+.watermark {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 300px; /* Ajuste o tamanho conforme necessário */
+  opacity: 0.4; /* Ajuste a opacidade conforme necessário */
+}
+.leftSide {
+  flex: 1; /* Tamanho da coluna da esquerda ajustado para 1 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.rightSide {
+  flex: 1.5; /* Aumenta o tamanho da coluna da direita */
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%; /* Reduz a largura do conteúdo */
+  padding: 40px;
+  background-color: #fff; /* Adiciona um fundo branco */
+  border-radius: 10px; /* Adiciona bordas arredondadas */
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15); /* Adiciona uma sombra */
+}
+
+.title {
+  margin-bottom: 30px;
+  color: #000; 
+  font-family: 'Roboto', sans-serif; 
+  text-transform: uppercase; 
+  letter-spacing: 1.2px;
+  font-size: 18px; /* Diminui o tamanho da fonte */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%; /* Aumenta a largura do input */
+  border: none; /* Remove a borda */
+  border-radius: 5px; /* Adiciona bordas arredondadas */
+  background-color: #f0f0f0; /* Adiciona um fundo cinza claro */
+}
+
+.button {
+  padding: 10px;
+  width: 100%; /* Aumenta a largura do botão */
+  border: none; /* Remove a borda */
+  border-radius: 5px; /* Adiciona bordas arredondadas */
+  background-color: #3E4095;
+  color: #fff; /* Adiciona cor branca ao texto */
+  cursor: pointer; /* Adiciona o cursor de pointer */
+}
+
+.icon {
+  margin-right: 15px;
+  width: 125px; /* Diminui a largura do ícone */
+  height: 95px; /* Diminui a altura do ícone */
+}
+
+/* Para telas médias e pequenas */
+@media (max-width: 768px) {
+  .rightSide {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+/* Para telas mobile */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse; /* Muda a direção do flexbox */
+  }
+  .rightSide {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .leftSide {
+    position: absolute;
+    top: 0;
+    
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1;
+  }
+}

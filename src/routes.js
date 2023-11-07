@@ -6,7 +6,7 @@ import NRs from "views/NR.js";
 import NR2 from "views/NR2.js";
 import NR3 from "views/NR3.js";
 import GerenciamentodeUsuarios from "views/GerenciamentodeUsuarios.js";
-
+import YourComponent from "views/Maps.js";
 const dashboardRoutes = [
   {
     path: "/dashboard",
@@ -14,7 +14,7 @@ const dashboardRoutes = [
     icon: "nc-icon nc-chart-pie-35",
     component: Dashboard,
     layout: "/admin",
-    roles: ['Financeiro', 'Administrador', 'Visualizador']
+    roles: ['Financeiro', 'Administrador', 'Colaborador']
   },
 
   {
@@ -23,7 +23,7 @@ const dashboardRoutes = [
     icon: "nc-icon nc-ruler-pencil",
     component: Catalogo,
     layout: "/admin",
-    roles: ['Administrador', 'Visualizador']
+    roles: ['Administrador', 'Colaborador']
   },
 
   {
@@ -32,7 +32,15 @@ const dashboardRoutes = [
     icon: "nc-icon nc-atom",
     component: BaseConhecimento,
     layout: "/admin",
-    roles: ['Administrador', 'Visualizador', 'Financeiro']
+    roles: ['Administrador', 'Colaborador']
+  },
+  {
+    path: "/Maps",
+    name: "Mapa de Rede ",
+    icon: "nc-icon nc-vector",
+    component: YourComponent,
+    layout: "/admin",
+    roles: ['Administrador', 'Colaborador']
   },
   {
     path: "/NR",
@@ -40,7 +48,7 @@ const dashboardRoutes = [
     icon: "nc-icon nc-single-copy-04",
     component: NRs,
     layout: "/admin",
-    roles: ['Administrador', 'Visualizador'],
+    roles: ['Administrador', 'Colaborador'],
     subMenu: [
         {
             path: "/NR",
@@ -68,7 +76,7 @@ const dashboardRoutes = [
   icon: "nc-icon nc-circle-09",
   component: GerenciamentodeUsuarios,
   layout: "/admin",
-  roles: ['Administrador', 'Visualizador']
+  roles: ['Administrador']
 },
 
 ];

@@ -24,7 +24,7 @@ function Sidebar({ color, image, routes }) {
       <div className="sidebar-wrapper">
         <div className="logo d-flex align-items-center justify-content-start">
           <a
-            href="https://www.qualitysegconsultoria.com.br"
+            href="https://portaludop.vercel.app/l"
             className="simple-text logo-mini mx-1"
           >
             <div>

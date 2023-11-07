@@ -162,25 +162,7 @@ const Dashboard = () => {
       <Container fluid>
       <script language="javascript" type="text/javascript" src="http://writer.zohopublic.com/writer/docroll/806640654/10"></script>
         <Row>
-        <Col lg="2" sm="2" className="text-center mx-auto">
-          <a href="https://forms.zohopublic.com/engenharia10qualityseg/form/qslibOSV210/formperma/2maAFvwKpusTxCGPwIOQ3RZzuvfc7MKnco0wax6s7eU" target="_blank" rel="noopener noreferrer">
-            <BootstrapCard className="card-stats card-btn">
-              <BootstrapCard.Body>
-                <div className="d-flex align-items-center justify-content-center" style={{ marginBottom: '15px' }}>
-                  <img
-                    src="https://imgur.com/AtpGO1b.png"
-                    alt="Ícone"
-                    style={{ width: '50px', height: '50px' }}
-                  />
-                  <BootstrapCard.Title as="h4" style={{ fontSize: '15px', marginLeft: '10px' }}>
-                    Realizar OS
-                  </BootstrapCard.Title>
-                </div>
-              </BootstrapCard.Body>
-            </BootstrapCard>
-          </a>
-        </Col>
-
+        
         <Col lg="2" sm="2" className="text-center mx-auto">
           <BootstrapCard 
             className="card-stats card-btn"
@@ -196,29 +178,6 @@ const Dashboard = () => {
                 <BootstrapCard.Title as="h4" style={{ fontSize: '15px', marginLeft: '10px' }}>
                   <a href="https://forms.zohopublic.com/esocial/form/EnviodoESocial/formperma/FuLjyXmuFRHA9dcUFtBFaXAlTkpSTmUW6AJiuI8c9mc" target="_blank">
                     E-Social
-                  </a>
-                </BootstrapCard.Title>
-              </div>
-            </BootstrapCard.Body>
-          </BootstrapCard>
-        </Col>
-
-        
-        <Col lg="2" sm="2" className="text-center mx-auto">
-          <BootstrapCard 
-            className="card-stats card-btn"
-            onClick={handleCardClick('PGR')}
-          >
-            <BootstrapCard.Body>
-              <div className="d-flex align-items-center justify-content-center" style={{ marginBottom: '15px' }}>
-                <img
-                  src="https://imgur.com/IhU0nyh.png"
-                  alt="Ícone"
-                  style={{ width: '50px', height: '50px' }}
-                />
-                <BootstrapCard.Title as="h4" style={{ fontSize: '15px', marginLeft: '10px' }}>
-                  <a href="https://forms.zohopublic.com/vendas61/form/DadosparaelaboraodosprogramasPRGPCMSO/formperma/24-A-_EX6D2TSTbuLRlJUv6AYv6VQHVTlSaDO2ESPrw" target="_blank">
-                  PGR PCMSO
                   </a>
                 </BootstrapCard.Title>
               </div>
@@ -248,27 +207,6 @@ const Dashboard = () => {
           </BootstrapCard>
         </Col>
 
-        <Col lg="2" sm="2" className="text-center mx-auto">
-          <BootstrapCard 
-            className="card-stats card-btn"
-            onClick={handleCardClick('PPP')}
-          >
-            <BootstrapCard.Body>
-              <div className="d-flex align-items-center justify-content-center" style={{ marginBottom: '15px' }}>
-                <img
-                  src="https://imgur.com/ZgAFGkP.png"
-                  alt="Ícone"
-                  style={{ width: '50px', height: '50px' }}
-                />
-                <BootstrapCard.Title as="h4" style={{ fontSize: '15px', marginLeft: '10px' }}>
-                  <a href="https://forms.zohopublic.com/juliana15/form/PPPPerfilProfissiogrficoPrevidencirio/formperma/hm4WW-EyrnN31vW7pD1xOheJkBnz36rN15rYgSR_4-0" target="_blank">
-                  PPP
-                  </a>
-                </BootstrapCard.Title>
-              </div>
-            </BootstrapCard.Body>
-          </BootstrapCard>
-        </Col>
 
         </Row>
         

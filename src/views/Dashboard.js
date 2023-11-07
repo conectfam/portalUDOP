@@ -78,7 +78,7 @@ const Dashboard = () => {
                 title="Graficos"
                 width="1000"
                 height="635"
-                src="https://8xgdy3-my.sharepoint.com/:p:/g/personal/mmiguel5_8xgdy3_onmicrosoft_com/EToBqu1jOxVOvHqbeJji_E8BpHG0RQfWHkeXlpnn2LYr0Q?e=26StJv"
+                src="https://lookerstudio.google.com/reporting/c3c12ae8-e4b7-4076-a30b-1065e3c36c53"
                 frameBorder="0"
                 allowFullScreen
               ></iframe>              

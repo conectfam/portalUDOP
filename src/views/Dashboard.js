@@ -78,7 +78,7 @@ const Dashboard = () => {
                 title="Graficos"
                 width="1000"
                 height="635"
-                src="https://app.powerbi.com/view?r=eyJrIjoiNjMxMmQyZWYtYzlmNi00YzRiLWFhOWItOWQ0NjczMmJjMTRiIiwidCI6ImMxNTk2NDVkLTM3ZjUtNDg5Ny1hNTQ5LTNhZDIzMDkyZTdjNyJ9"
+                src="https://8xgdy3-my.sharepoint.com/:p:/g/personal/mmiguel5_8xgdy3_onmicrosoft_com/EToBqu1jOxVOvHqbeJji_E8BMU2fVv_OvH_LzKzHlZshvg?e=EZk1bZ"
                 frameBorder="0"
                 allowFullScreen
               ></iframe>              

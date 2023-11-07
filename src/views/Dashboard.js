@@ -59,8 +59,8 @@ const Dashboard = () => {
                 title="Graficos"
                 width="1000"
                 height="635"
-               
-                src="https://app.powerbi.com/view?r=eyJrIjoiYzUyMWZiOWItNDJjMC00ZmQwLWI3ZmQtMzU2ZmU5YTZkYTE1IiwidCI6ImMxNTk2NDVkLTM3ZjUtNDg5Ny1hNTQ5LTNhZDIzMDkyZTdjNyJ9"
+                
+                src="https://lookerstudio.google.com/embed/reporting/c3c12ae8-e4b7-4076-a30b-1065e3c36c53/page/VgD"
                 frameBorder="0"
                 allowFullScreen
               ></iframe>
@@ -78,7 +78,7 @@ const Dashboard = () => {
                 title="Graficos"
                 width="1000"
                 height="635"
-                src="https://lookerstudio.google.com/embed/reporting/c3c12ae8-e4b7-4076-a30b-1065e3c36c53/page/VgD" 
+                src="https://app.powerbi.com/view?r=eyJrIjoiYzUyMWZiOWItNDJjMC00ZmQwLWI3ZmQtMzU2ZmU5YTZkYTE1IiwidCI6ImMxNTk2NDVkLTM3ZjUtNDg5Ny1hNTQ5LTNhZDIzMDkyZTdjNyJ9" 
                 frameBorder="0"
                 allowFullScreen
               ></iframe>              
